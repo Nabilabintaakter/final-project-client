@@ -11,3 +11,11 @@
 .font-inter{
   font-family: "Inter", serif;
 }
+.carousel .thumbs-wrapper {
+  justify-content: center;
+  display: flex;
+}
+.carousel .thumbs {
+  justify-content: center;
+  display: flex;
+}

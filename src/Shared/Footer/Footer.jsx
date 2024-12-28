@@ -3,15 +3,15 @@ import React from 'react';
 const Footer = () => {
     return (
         <div className='font-inter text-white'>
-            <div className='flex '>
-                <div className='bg-[#1F2937] w-1/2 flex flex-col justify-center text-center py-24 font-medium'>
+            <div className='flex flex-col md:flex-row w-full'>
+                <div className='bg-[#1F2937] w-full md:w-1/2 flex flex-col justify-center text-center py-24 font-medium'>
                     <h6 class="text-[32px]">CONTACT US</h6>
                     <a class="link link-hover text-lg mt-1">123 ABS Street, Uni 21, Bangladesh</a>
                     <a class="link link-hover text-lg mt-1">+88 123456789</a>
                     <a class="link link-hover text-lg mt-1">Mon - Fri: 08:00 - 22:00</a>
                     <a class="link link-hover text-lg mt-1">Sat - Sun: 10:00 - 23:00</a>
                 </div>
-                <div className='w-1/2 bg-[#111827] text-center flex flex-col justify-center items-center'>
+                <div className='w-full md:w-1/2 bg-[#111827] text-center flex flex-col justify-center items-center py-24'>
                     <nav className='font-medium'>
                         <h6 className="text-[32px]">Follow US</h6>
                         <p className='mt-3 text-lg'>Join us on social media</p>
