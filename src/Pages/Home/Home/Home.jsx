@@ -5,6 +5,7 @@ import Header from '../../../Shared/Header/Header';
 import RestaurantIntro from '../RestaurantIntro/RestaurantIntro';
 import PopularMenu from '../PopularMenu/PopularMenu';
 import CallUs from '../CallUs/CallUs';
+import ChefRecommends from '../ChefRecommends/ChefRecommends';
 
 const Home = () => {
     return (
@@ -16,6 +17,7 @@ const Home = () => {
                 <RestaurantIntro></RestaurantIntro>
                 <PopularMenu></PopularMenu>
                 <CallUs></CallUs>
+                <ChefRecommends></ChefRecommends>
             </div>
         </div>
     );
