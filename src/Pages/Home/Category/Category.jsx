@@ -34,7 +34,7 @@ const Category = () => {
                 clickable: true,
             }}
             modules={[FreeMode, Pagination]}
-            className="mySwiper font-cinzel px-2 md:px-4 w-[90%] lg:w-[95%] mx-auto max-w-7xl my-24 bg-green-300"
+            className="mySwiper font-cinzel px-2 md:px-4 w-[90%] mx-auto max-w-7xl "
         >
             <SwiperSlide className="custom-slide">
                 <img src={slide1} className="w-full" alt="" />

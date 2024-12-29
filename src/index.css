@@ -20,7 +20,7 @@
   display: flex;
 }
 .custom-slide {
-  width: 300px !important; /* Your desired width */
+  width: 305px !important; /* Your desired width */
   flex-shrink: 0; /* Prevent shrinking */
 }
 

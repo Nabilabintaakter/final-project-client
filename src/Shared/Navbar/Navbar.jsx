@@ -12,7 +12,7 @@ const Navbar = () => {
     </>
     return (
         <div className='font-inter text-white fixed z-50 bg-[#15151580] w-full'>
-            <div className="navbar flex justify-between px-2 md:px-4 w-full md:w-[90%] lg:w-[95%] mx-auto max-w-7xl">
+            <div className="navbar flex justify-between px-2 md:px-0 w-full md:w-[90%]  mx-auto max-w-7xl">
                 <div className="navbar-start w-auto">
                     <div className="dropdown ">
                         <div tabIndex={0} role="button" className="mr-3 lg:hidden">
@@ -36,8 +36,8 @@ const Navbar = () => {
                         </ul>
                     </div>
                     <NavLink to='/' className="font-cinzel hidden lg:block">
-                        <p className='text-[32px] font-black'>BISTRO BOSS</p>
-                        <p className='text-2xl font-bold tracking-widest'>RESTAURANT</p>
+                        <p className='text-3xl font-black'>BISTRO BOSS</p>
+                        <p className='text-xl font-bold tracking-widest'>RESTAURANT</p>
                     </NavLink>
                 </div>
                 {/* mobile */}
@@ -49,12 +49,12 @@ const Navbar = () => {
                 </div>
                 <div className="navbar-end w-auto">
                     {/* laptop */}
-                    <ul className="w-fit hidden lg:flex items-center gap-6  px-1">
+                    <ul className="w-fit hidden lg:flex text-sm items-center gap-6  px-1">
                         {links}
                     </ul>
                     <div className='flex items-center gap-2 md:gap-3'>
                         <img className='w-[49px] h-[40px]' src={cart} alt="" />
-                        <p className='text-xs md:text-base'>SIGN OUT</p>
+                        <p className='text-xs md:text-sm'>SIGN OUT</p>
                         <FaCircleUser className='w-8 h-8' />
                     </div>
                 </div>
