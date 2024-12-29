@@ -7,20 +7,19 @@ import PopularMenu from '../PopularMenu/PopularMenu';
 import CallUs from '../CallUs/CallUs';
 import ChefRecommends from '../ChefRecommends/ChefRecommends';
 import Featured from '../Featured/Featured';
+import Testimonial from '../Testimonial/Testimonial';
 
 const Home = () => {
     return (
         <div>
             <Banner></Banner>
-            <div className='my-12 md:my-16'>
-                <Header title={'From 11:00am to 10:00pm'} subTitle={'Order Online'}></Header>
-                <Category></Category>
-                <RestaurantIntro></RestaurantIntro>
-                <PopularMenu></PopularMenu>
-                <CallUs></CallUs>
-                <ChefRecommends></ChefRecommends>
-                <Featured></Featured>
-            </div>
+            <Category></Category>
+            <RestaurantIntro></RestaurantIntro>
+            <PopularMenu></PopularMenu>
+            <CallUs></CallUs>
+            <ChefRecommends></ChefRecommends>
+            <Featured></Featured>
+            <Testimonial></Testimonial>
         </div>
     );
 };
