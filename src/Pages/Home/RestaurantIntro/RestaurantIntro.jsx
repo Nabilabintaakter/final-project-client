@@ -2,7 +2,7 @@ import chef from '../../../assets/home/chef-service.jpg';
 
 const RestaurantIntro = () => {
     return (
-        <div className='my-12 md:my-16 w-[90%] mx-auto max-w-7xl flex justify-center items-center'
+        <div className='my-12 md:my-16 w-[90%] mx-auto max-w-7xl flex justify-center items-center bg-fixed' 
             style={{
                 backgroundImage: `url(${chef})`,
                 backgroundSize: 'cover',
