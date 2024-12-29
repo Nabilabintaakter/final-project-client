@@ -4,6 +4,7 @@ import Category from '../Category/Category';
 import Header from '../../../Shared/Header/Header';
 import RestaurantIntro from '../RestaurantIntro/RestaurantIntro';
 import PopularMenu from '../PopularMenu/PopularMenu';
+import CallUs from '../CallUs/CallUs';
 
 const Home = () => {
     return (
@@ -14,6 +15,7 @@ const Home = () => {
                 <Category></Category>
                 <RestaurantIntro></RestaurantIntro>
                 <PopularMenu></PopularMenu>
+                <CallUs></CallUs>
             </div>
         </div>
     );
