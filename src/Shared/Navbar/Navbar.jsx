@@ -8,11 +8,11 @@ const Navbar = () => {
         <li><NavLink to='/footer' className={({isActive})=>`${isActive && 'font-bold text-[#EEFF25]'}`}>CONTACT US</NavLink></li>
         <li><NavLink to='/dashboard' className={({isActive})=>`${isActive && 'font-bold text-[#EEFF25]'}`}>DASHBOARD</NavLink></li>
         <li><NavLink to='/ourMenu' className={({isActive})=>`${isActive && 'font-bold text-[#EEFF25]'}`}>OUR MENU</NavLink></li>
-        <li><NavLink to='/ourShop' className={({isActive})=>`${isActive && 'font-bold text-[#EEFF25]'}`}>OUR SHOP</NavLink></li>
+        <li><NavLink to='/orderFood' className={({isActive})=>`${isActive && 'font-bold text-[#EEFF25]'}`}>ORDER FOOD</NavLink></li>
     </>
     return (
         <div className='font-inter text-white fixed z-50 bg-[#15151580] w-full'>
-            <div className="navbar flex justify-between px-2 md:px-0 w-full md:w-[90%]  mx-auto max-w-7xl">
+            <div className="navbar flex justify-between px-2 md:px-0 w-full md:w-[90%]  mx-auto ">
                 <div className="navbar-start w-auto">
                     <div className="dropdown ">
                         <div tabIndex={0} role="button" className="mr-3 lg:hidden">
